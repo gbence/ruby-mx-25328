@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'pry'
+require_relative '../lib/mx-25328'
+
+connection = MX25328.connect
+loop do
+  puts connection.read(10).map(&:to_csv)
+  sleep 0.1
+end
