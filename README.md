@@ -51,3 +51,12 @@ $ bin/mx-25328
 0.1469,"V"
 ...
 ```
+
+## Documentation
+
+Related documentations:
+
+*   Maxwell's product page about the [MX 25328](https://www.maxwell-digital.com/index.php?page=product&code=25328)
+    multimeter,
+
+*   DMM [Communcation Protocol](https://www.maxwell-digital.com/products/25328/downloads/Communication%20Protocol.pdf).
